@@ -63,7 +63,7 @@ function initMap(){
 		rotateControl: false
 	});
 
-	let marker=new google.maps.Marker.AdvancedMarkerElement({
+	let marker=new google.maps.Marker({
 		position: myLatLng,
 		map: map,
 		title: "(주)오뚜기"
